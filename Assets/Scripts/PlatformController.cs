@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
-{
-
-    public class SimplePlatformController : MonoBehaviour
+    public class PlatformController : MonoBehaviour
     {
 
         [HideInInspector] public bool facingRight = true;
@@ -66,4 +63,4 @@ public class Character : MonoBehaviour
             transform.localScale = theScale;
         }
     }
-}
+
