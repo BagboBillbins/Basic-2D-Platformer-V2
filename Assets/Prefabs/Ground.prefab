@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 61828572569205122}
   - component: {fileID: 50418087064681180}
   - component: {fileID: 114509488678667160}
+  - component: {fileID: 114592703935039470}
+  - component: {fileID: 114784446011208676}
   m_Layer: 12
   m_Name: Ground
   m_TagString: Untagged
@@ -143,3 +145,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallDelay: 1
+--- !u!114 &114592703935039470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1419779000958928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe00e7de77a4ff45b083b3f96a9399a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinSpawns: []
+  coin: {fileID: 1894574386155772, guid: ae682addff44bcf419cabc15d9fff60a, type: 2}
+--- !u!114 &114784446011208676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1419779000958928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcdbc0ac854b4b4cba4eaaf157a4041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
